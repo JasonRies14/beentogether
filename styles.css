@@ -1,0 +1,150 @@
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: OnsenJapanDemoRegular;
+    src: url(OnsenJapanDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: Fujimaru-Regular;
+    src: url(Fujimaru-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(tianshu-liu-aqZ3UAjs_M4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    width: 90%;
+    font-family: 'OnsenJapanDemoRegular', cursive;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: rgb(240,242,239) 0 0 10px, rgb(225,140,67) 0 0 15px, rgb(225,140,67) 0 0 20px;
+}
+
+.Alycias-Span {
+    text-shadow: rgb(0, 255, 255) 0 0 10px;
+    color: rgba(117, 117, 117, 0.5);
+    -webkit-text-stroke: 0.1px rgb(0, 115, 255);
+}
+
+.Jasons-Span {
+    text-shadow: rgb(0, 255, 0) 0 0 10px;
+    color: rgba(117, 117, 117, 0.5);
+    -webkit-text-stroke: 0.1px rgb(15, 125, 20);
+}
+
+.div-for-span1 {
+    display: flex;
+    justify-content: center;
+}
+
+.span-for-days_since1 {
+    font-size: 4rem;
+    font-family: 'Fujimaru-Regular', cursive;
+}
+
+.span-for-days_since2 {
+    font-size: 2.5rem;
+    font-family: 'Fujimaru-Regular', cursive;
+}
+
+audio {
+    display: none;
+}
+
+.div-for-audio {
+    max-width: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-for-audio button {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 1rem;
+    backdrop-filter: blur(20px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width: 850px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .span-for-days_since1  {
+        font-size: 3rem;
+    }
+
+    .span-for-days_since2 {
+        font-size: 2rem;
+
+    }
+}
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .span-for-days_since1 {
+        font-size: 2.5rem;
+    }
+
+    .span-for-days_since2 {
+        font-size: 1.5rem;
+
+    }
+    
+}
+
+@media (max-width: 510px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .span-for-days_since1 {
+        font-size: 2.2rem;
+
+    }
+
+    .span-for-days_since2 {
+        font-size: 1.3rem;
+
+    }
+    
+}
